@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A946F4D426F74799008C1E35 /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A946F4D326F74799008C1E35 /* CounterView.swift */; };
+		A946F4D626F747B1008C1E35 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A946F4D526F747B1008C1E35 /* GameModel.swift */; };
+		A946F4D826F74D03008C1E35 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A946F4D726F74D03008C1E35 /* Colors.swift */; };
 		A980D7FC26F73F7200A6515E /* AutomatedTestsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A980D7FB26F73F7200A6515E /* AutomatedTestsApp.swift */; };
 		A980D7FE26F73F7200A6515E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A980D7FD26F73F7200A6515E /* ContentView.swift */; };
 		A980D80026F73F7500A6515E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A980D7FF26F73F7500A6515E /* Assets.xcassets */; };
 		A980D80326F73F7500A6515E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A980D80226F73F7500A6515E /* Preview Assets.xcassets */; };
 		A980D80E26F73F7500A6515E /* AutomatedTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A980D80D26F73F7500A6515E /* AutomatedTestsTests.swift */; };
 		A980D81926F73F7500A6515E /* AutomatedTestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A980D81826F73F7500A6515E /* AutomatedTestsUITests.swift */; };
+		A9B532BA26F8698500B9CA03 /* ClickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B532B926F8698500B9CA03 /* ClickerView.swift */; };
+		A9B532BC26F872F900B9CA03 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B532BB26F872F900B9CA03 /* GameView.swift */; };
+		A9B532BE26F8751200B9CA03 /* GlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B532BD26F8751200B9CA03 /* GlassView.swift */; };
+		A9B532C026F8756000B9CA03 /* UIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B532BF26F8756000B9CA03 /* UIConstants.swift */; };
+		A9B532C226F8764300B9CA03 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B532C126F8764300B9CA03 /* GameOverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A946F4D326F74799008C1E35 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		A946F4D526F747B1008C1E35 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		A946F4D726F74D03008C1E35 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		A980D7F826F73F7200A6515E /* AutomatedTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomatedTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A980D7FB26F73F7200A6515E /* AutomatedTestsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomatedTestsApp.swift; sourceTree = "<group>"; };
 		A980D7FD26F73F7200A6515E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +56,11 @@
 		A980D81426F73F7500A6515E /* AutomatedTestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutomatedTestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A980D81826F73F7500A6515E /* AutomatedTestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutomatedTestsUITests.swift; sourceTree = "<group>"; };
 		A980D81A26F73F7500A6515E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B532B926F8698500B9CA03 /* ClickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerView.swift; sourceTree = "<group>"; };
+		A9B532BB26F872F900B9CA03 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		A9B532BD26F8751200B9CA03 /* GlassView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlassView.swift; sourceTree = "<group>"; };
+		A9B532BF26F8756000B9CA03 /* UIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIConstants.swift; sourceTree = "<group>"; };
+		A9B532C126F8764300B9CA03 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +113,14 @@
 			children = (
 				A980D7FB26F73F7200A6515E /* AutomatedTestsApp.swift */,
 				A980D7FD26F73F7200A6515E /* ContentView.swift */,
+				A9B532BB26F872F900B9CA03 /* GameView.swift */,
+				A9B532C126F8764300B9CA03 /* GameOverView.swift */,
+				A946F4D326F74799008C1E35 /* CounterView.swift */,
+				A9B532B926F8698500B9CA03 /* ClickerView.swift */,
+				A946F4D526F747B1008C1E35 /* GameModel.swift */,
+				A946F4D726F74D03008C1E35 /* Colors.swift */,
+				A9B532BD26F8751200B9CA03 /* GlassView.swift */,
+				A9B532BF26F8756000B9CA03 /* UIConstants.swift */,
 				A980D7FF26F73F7500A6515E /* Assets.xcassets */,
 				A980D80426F73F7500A6515E /* Info.plist */,
 				A980D80126F73F7500A6515E /* Preview Content */,
@@ -259,8 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9B532C226F8764300B9CA03 /* GameOverView.swift in Sources */,
 				A980D7FE26F73F7200A6515E /* ContentView.swift in Sources */,
+				A946F4D826F74D03008C1E35 /* Colors.swift in Sources */,
+				A9B532C026F8756000B9CA03 /* UIConstants.swift in Sources */,
+				A946F4D626F747B1008C1E35 /* GameModel.swift in Sources */,
 				A980D7FC26F73F7200A6515E /* AutomatedTestsApp.swift in Sources */,
+				A9B532BA26F8698500B9CA03 /* ClickerView.swift in Sources */,
+				A946F4D426F74799008C1E35 /* CounterView.swift in Sources */,
+				A9B532BC26F872F900B9CA03 /* GameView.swift in Sources */,
+				A9B532BE26F8751200B9CA03 /* GlassView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
